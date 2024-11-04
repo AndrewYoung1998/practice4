@@ -1,0 +1,45 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book Title"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/author_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Author Name"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/isbn_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ISBN Number"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/publication_date_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Publication Date"
+        android:textSize="14sp"/>
+
+    <!-- Delete Button -->
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:textColor="@android:color/holo_red_dark"/>
+</LinearLayout>
+

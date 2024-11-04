@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "630092398874",
+    "project_id": "sweng888-6e594",
+    "storage_bucket": "sweng888-6e594.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630092398874:android:ac8447f9db9af328686ca3",
+        "android_client_info": {
+          "package_name": "edu.psu.sweng888.firebaseexamples"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6VKKRqAhEtbLqAa_m1uZ-Fl9ABKMFItA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

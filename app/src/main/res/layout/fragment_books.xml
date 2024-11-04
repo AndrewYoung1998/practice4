@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/title_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title" />
+
+    <EditText
+        android:id="@+id/author_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Author" />
+
+    <EditText
+        android:id="@+id/isbn_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ISBN" />
+
+    <EditText
+        android:id="@+id/publication_date_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Publication Date" />
+
+    <Button
+        android:id="@+id/add_book_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Book" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
+
